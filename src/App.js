@@ -1,29 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './pages/homepage/homepage.component';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1> Wese 90</h1>
-
-        <span> Your Local Man</span>
-      </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Wese 90
-        </a>
-      </header>
+     <HomePage />
     </div>
   );
 }
