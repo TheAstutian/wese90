@@ -6,9 +6,13 @@ const Header = () => (
         <Navigation />
       <div>
         <div class="banner-image"/>
-      <span> Your Local Man</span>
+      <div>
+      <span> Your <br /> Local Man</span>
+      </div>
+      <div>
       <span>Delivering smart solutions to your tech problems...</span>
       <Button>Learn More</Button>
+      </div>
       </div>
     </div>
 )
