@@ -4,7 +4,7 @@ import Footer from '../../components/footer/footer.component';
 
 const HomePage = () => (
     <div>
-        
+        <Header />
     <div className='white first'>
         <h2>Relax, local man's got you</h2>
         <p>We connect ground-breaking technology with Life Storage's Storage

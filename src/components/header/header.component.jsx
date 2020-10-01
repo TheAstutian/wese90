@@ -5,7 +5,7 @@ import './header.style.css';
 
 const Header = () => (
     <div>
-        <Navigation />
+        
       <div>
         <div class="banner-image"/>
       <div>
