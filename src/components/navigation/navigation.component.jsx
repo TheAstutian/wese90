@@ -10,8 +10,8 @@ const Navigation = () => (
         </div>
         
         <div className='nav-menus'>
-            <div><p>How it works</p></div>
-            <div> <Button>Contact Us</Button></div>
+            <div className='first'><p>How it works</p></div>
+            <div className='second'> <Button>Contact Us</Button></div>
         </div>
     </div>
 );
