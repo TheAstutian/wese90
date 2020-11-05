@@ -2,27 +2,33 @@
     width: 100%;
     display: flex;
     justify-content: space-between;  
-    margin-bottom: 5px;  
-}
+    border-bottom: 1px solid black;
 
-.title-container{
-margin-left: 50px;
-}
-
-.nav-menus{
-    margin-right: 50px;
+    .title-container{
+        margin: 10px;
+        margin-left: 50px; 
     
-}
 
-.first{
+    span{
+        margin-top: 5px;
+        font: 2.5em sans-serif;
+    }
+                   
+    }
 
-display: inline;
-background-color: blue;
-}
-.second{
-    
-    display: inline;
-    padding: 0;
-    background-color: orange;
-}
+    .nav-menus{
+        margin-right: 50px;    
 
+        .first{
+          display: inline-block;
+          margin-right: 50px;
+            }
+        
+        .second{
+             display: inline-block;
+             button {
+                 background-color: gold;
+             }
+            }
+    }       
+}

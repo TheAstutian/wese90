@@ -6,7 +6,7 @@ import './navigation.style.scss';
 const Navigation = () => (
     <div className='container'>
         <div className='title-container'>
-            <h1>Wese90</h1>
+            <span>Wese90</span>
         </div>
         
         <div className='nav-menus'>
@@ -15,5 +15,5 @@ const Navigation = () => (
         </div>
     </div>
 );
-
+ 
 export default Navigation; 
