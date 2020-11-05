@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../button/button.component';
-import './navigation.style.css';
+import './navigation.style.scss';
 
 const Navigation = () => (
     <div className='container'>

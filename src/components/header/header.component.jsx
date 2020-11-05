@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../navigation/navigation.component';
 import Button from '../button/button.component';
-import './header.style.css'; 
+import './header.style.scss'; 
 
 const Header = () => (
     <div>
