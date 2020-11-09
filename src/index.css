@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'SairaCondensed-ExtraLight';
+  src: local('SairaCondensed-ExtraLight'), url(./fonts/SairaCondensed-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: local('OpenSans-Light'), url(./fonts/OpenSans-Light.ttf) format('truetype');
+}
