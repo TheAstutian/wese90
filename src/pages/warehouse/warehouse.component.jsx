@@ -1,7 +1,9 @@
 import React from 'react';
 
-const WareHouse = () => {
+const WareHouse = () => (
     <div>
         Warehousing Page
     </div>
-}
+)
+
+export default WareHouse; 

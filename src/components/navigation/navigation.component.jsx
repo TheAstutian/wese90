@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 
 import Button from '../button/button.component';
 import './navigation.style.scss';
@@ -6,12 +7,12 @@ import './navigation.style.scss';
 const Navigation = () => (
     <div className='container'>
         <div className='title-container'>
-            <span>Wese90</span>
+            <Link to='/'><span>Wese90</span></Link>
         </div>
         
         <div className='nav-menus'>
-            <div className='first'><p>How it works</p></div>
-            <div className='second'> <Button>Contact Us</Button></div>
+            <Link to='/warehouse'><div className='first'><p>How it works</p></div></Link>
+            <Link to='/contact'><div className='second'> <Button>Contact Us</Button></div></Link>
         </div>
     </div>
 );
