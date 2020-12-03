@@ -4,10 +4,10 @@ import Button from '../button/button.component';
 import './header.style.scss'; 
 
 const Header = () => (
-    <div>
+    <div className='header-container'>
         
       <div>
-        <div class="banner-image"/>
+        <div className="banner-image"/>
       <div>
       <span> Your <br /> Local Man</span>
       </div>
