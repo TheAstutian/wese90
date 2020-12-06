@@ -3,11 +3,17 @@
     
 
     .banner-image{
-        margin: 10px;
+        
     }
-    span {
-        margin-left: 20px;
-        margin-top: 50px;
-        font-size: 2em;
+    .header-title{
+        border: 1px solid black;
+        padding-top: 100px;
+        span {
+            
+          display: block;
+            
+            
+            font-size: 2em;
+        }
     }
 }

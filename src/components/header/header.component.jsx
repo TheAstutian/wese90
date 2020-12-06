@@ -8,8 +8,8 @@ const Header = () => (
         
       <div>
         <div className="banner-image"/>
-      <div>
-      <span> Your <br /> Local Man</span>
+      <div className='header-title'>
+      <span> Your </span><span> Local Man</span>
       </div>
       <div>
       <span>Delivering smart solutions to your tech problems...</span>
