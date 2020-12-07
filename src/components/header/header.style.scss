@@ -1,10 +1,9 @@
 .header-container{
-    border: 1px solid red;
-    height: 350px;
+    
+    height: 450px;
     
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     
    
 
@@ -17,18 +16,35 @@
     }
     .header-content{
         display: flex;
-        position: absolute;
         flex-direction: column;
+        border: 1px solid red;
+        
+        position: absolute;
+        padding-left: 75px;
         
     .header-title{
         border: 1px solid black;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        
         
         span {
             
-          display: block;
-            
-            
-            font-size: 2em;
+            display: flex;
+            font-size: 3em;
+        }
+    }
+    .header-txtbtn{
+        border: 1px solid blue;
+
+        span{
+            display: flex;
+            font-size: 1.2em;
+        }
+        Button{
+            margin: 30px;
         }
     }
     }
