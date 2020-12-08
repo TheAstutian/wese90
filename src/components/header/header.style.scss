@@ -17,13 +17,13 @@
     .header-content{
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+        
         
         position: absolute;
         padding-left: 75px;
         
     .header-title{
-        border: 1px solid black;
+        
         padding-top: 100px;
         padding-bottom: 20px;
         display: flex;
@@ -33,19 +33,41 @@
         span {
             
             display: flex;
-            font-size: 3em;
+            margin-bottom: -30px;
+            font-size: 4em;
+            font-weight: bold;
+            font-family: 'SairaCondensed-ExtraLight';
+            color: white;
         }
     }
     .header-txtbtn{
-        border: 1px solid blue;
+        padding-top: 30px;
 
         span{
             display: flex;
-            font-size: 1.2em;
+            font-size: 1.1em;
+            font-family: 'OpenSans-Light';
+            color: white;
         }
         Button{
-            margin: 30px;
+            margin-top: 30px;
+            display: inline-block; 
+            padding: 0.6em 1em;
+            border: 0.1em solid #118EE9;
+            border-radius: 0.12em;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'OpenSans-Light';
+            font-weight: bold;
+            color: #118EE9;
+            text-align: center;
+            transition: all 0.2s; 
+            background-color: transparent; 
         }
+        Button:hover{
+            color: white;
+            background-color: #118EE9; 
+            }
     }
     }
 }
