@@ -46,6 +46,7 @@
         span{
             display: flex;
             font-size: 1.1em;
+            font-weight: 100;
             font-family: 'OpenSans-Light';
             color: white;
         }
@@ -58,11 +59,12 @@
             box-sizing: border-box;
             text-decoration: none;
             font-family: 'OpenSans-Light';
-            font-weight: bold;
+            font-weight: lighter;
             color: #118EE9;
             text-align: center;
             transition: all 0.2s; 
             background-color: transparent; 
+            cursor: pointer;
         }
         Button:hover{
             color: white;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../navigation/navigation.component';
+import {Link } from 'react-router-dom';
 import Button from '../button/button.component';
 import './header.style.scss'; 
 
@@ -20,7 +20,7 @@ const Header = () => (
               </div>
               <div className='header-txtbtn'>
               <span>Delivering smart solutions to</span><span> your tech problems...</span>
-              <Button>Learn More</Button>
+              <Link to='/warehouse'><Button>Learn More</Button></Link>
               </div>
         </div>
       
