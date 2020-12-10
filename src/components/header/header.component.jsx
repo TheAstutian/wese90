@@ -19,7 +19,7 @@ const Header = () => (
               <span> Local Man</span>
               </div>
               <div className='header-txtbtn'>
-              <span>Delivering smart solutions to</span><span> your tech problems...</span>
+              <span>Delivering smart solutions to</span><span> enterprise problems...</span>
               <Link to='/warehouse'><Button>Learn More</Button></Link>
               </div>
         </div>
