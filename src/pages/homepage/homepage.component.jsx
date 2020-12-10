@@ -3,18 +3,21 @@ import Header from '../../components/header/header.component';
 import Footer from '../../components/footer/footer.component';
 
 import './homepage.style.scss';
+import Adverts from '../../components/adverts/adverts.component';
 
 const HomePage = () => (
-    <div>
+    <div className='homepage-container'>
         <Header />
+        
     <div className='white first'>
-        <h2>Relax, local man's got you</h2>
+        <span>Relax, local man's got you</span>
         <p>We connect ground-breaking technology with Life Storage's Storage
             
             asset management platform to provide a warehousing and 
             distribution solution never seen before in the industry. 
         </p>
     </div>
+    <Adverts />
     <div className='ash'>
         <div>
             image part

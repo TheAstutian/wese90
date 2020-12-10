@@ -1,3 +1,26 @@
+.homepage-container{
+    width: 100%;
+
+    .first{
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        span{
+            font-weight: normal;
+            font-size: 2.5em;
+            font-family: 'OpenSans-Light';
+            color: #118EE9;
+            margin: 10px;
+        }
+        p{
+            font-weight: lighter;
+            width: 50%;
+            margin: 0 auto;
+
+        }
+    }
+}
+
 .ash {
     background-color: grey;
 }

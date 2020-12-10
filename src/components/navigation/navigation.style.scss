@@ -19,7 +19,8 @@
     }
 
     .nav-menus{
-        margin-right: 50px;    
+        margin-right: 50px; 
+           
         
         .first{
           display: inline-block;
@@ -40,6 +41,7 @@
                 border-radius: 3px;
                 border-color: white;
                 font-family: 'OpenSans-Light';
+                cursor: pointer;
                 
              }
             }
