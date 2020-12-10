@@ -9,7 +9,7 @@ const HomePage = () => (
     <div className='homepage-container'>
         <Header />
         
-    <div className='white first'>
+    <div className='first'>
         <span>Relax, local man's got you</span>
         <p>We connect ground-breaking technology with Life Storage's Storage
             
@@ -19,10 +19,10 @@ const HomePage = () => (
     </div>
     <Adverts />
     <div className='ash'>
-        <div>
+        <div className='img'>
             image part
         </div>
-        <div>
+        <div className='txt'>
             <h3>Warehousing like never before</h3>
             <p>Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -32,22 +32,22 @@ const HomePage = () => (
     </div>
 
     <div className='white'>
-        <div>
+        <div className='txt'>
             <h3>Fantastic phone deals</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div>
+        <div className='img'>
             image part
         </div>
 
     </div>
 
     <div className='ash'>
-        <div>
+        <div className='img'>
             Image part
         </div>
-        <div>
+        <div className='txt'>
             <h3> Dependable escrow</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
