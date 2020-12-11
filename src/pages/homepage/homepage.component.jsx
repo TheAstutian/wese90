@@ -17,10 +17,10 @@ const HomePage = () => (
             distribution solution never seen before in the industry. 
         </p>
     </div>
-    <Adverts />
+    
     <div className='second ash'>
         <div className='img'>
-            image part
+            <img src='https://images.unsplash.com/photo-1549194388-f61be84a6e9e' />
         </div>
         <div className='txt'>
             <h2>Warehousing like never before</h2>
@@ -40,14 +40,14 @@ const HomePage = () => (
                 <Link to='/adspage'><button>Explore!</button></Link>
         </div>
         <div className='img'>
-            image part
+            <img src='https://c1.wallpaperflare.com/preview/628/494/472/phone-iphone-apple-earbuds.jpg' />
         </div>
 
     </div>
 
     <div className='second ash'>
         <div className='img'>
-            Image part
+            <img src='https://images.unsplash.com/photo-1588130721958-d1392d36ed94' />
         </div>
         <div className='txt'>
             <h2> Dependable escrow</h2>
@@ -55,7 +55,7 @@ const HomePage = () => (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href='wa.link/no3b4t'><button>Use this service!</button></a>
+            <a href="https://wa.link/no3b4t"><button>Use this service!</button></a>
         </div>
 
     </div>
