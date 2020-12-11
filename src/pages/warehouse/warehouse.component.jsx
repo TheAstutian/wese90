@@ -1,8 +1,9 @@
 import React from 'react';
+import './warehouse.style.scss'
 
 const WareHouse = () => (
-    <div>
-        Warehousing Page
+    <div className='div'>
+        <span>World class Warehousing</span>
     </div>
 )
 
