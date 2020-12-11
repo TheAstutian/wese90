@@ -27,6 +27,7 @@ const HomePage = () => (
             <p>Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. </p>
+                <Link to='/warehouse'> <button>More details</button></Link>
 
         </div>
     </div>
@@ -36,6 +37,7 @@ const HomePage = () => (
             <h2>Fantastic phone deals</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Link to='/adspage'><button>Explore!</button></Link>
         </div>
         <div className='img'>
             image part
@@ -53,6 +55,7 @@ const HomePage = () => (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+            <a href='wa.link/no3b4t'><button>Use this service!</button></a>
         </div>
 
     </div>

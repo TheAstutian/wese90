@@ -25,6 +25,8 @@
         display: flex;
         flex-direction: horizontal;
         justify-content: space-between;
+        padding-bottom: 20px;
+        padding-top: 20px;
 
         .img{
             width: 50%;
@@ -44,6 +46,28 @@
                 padding-left: 15%;
                 padding-right: 15%;
                 font-weight: lighter;
+                padding-bottom: 20px;
+            }
+            button{
+                display: flex;
+                margin: 0 auto;
+                padding: 0.9em 1.5em;
+                border: 0.01em solid #118EE9;
+                border-radius: 0.12em;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-family: 'OpenSans-Light';
+                font-weight: bold;
+                font-size: 0.9em;
+                color: #118EE9;
+                text-align: center;
+                transition: all 0.2s; 
+                background-color: transparent; 
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #118EE9;
+                color: white;
             }
         }
 
@@ -51,6 +75,15 @@
 
     .ash{
         background-color:  #b1b1b1;
+    }
+
+    .homepage-container{
+
+        width: 100%; 
+
+        color: #118EE9;
+        font-family: 'OpenSans-Light';
+        font-weight: bolder;
     }
 }
 
