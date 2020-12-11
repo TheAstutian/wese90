@@ -1,0 +1,14 @@
+.footer{
+    background-color: grey;
+    height: 50px;
+    margin-top: 100px;
+    .footer-container { 
+      margin: 10px;
+      padding-top: 10px;
+        span{
+            color: white;
+            font-weight: lighter;
+        
+        }
+    }
+}
