@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-<div>
+<div style={{height:'100px'}}>
     Copyright 2020, The Astutians. 
 </div>
 )
