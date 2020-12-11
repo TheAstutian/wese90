@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
 import Footer from '../../components/footer/footer.component';
-
+import {Link } from 'react-router-dom';
 import './homepage.style.scss';
 import Adverts from '../../components/adverts/adverts.component';
 
@@ -18,12 +18,12 @@ const HomePage = () => (
         </p>
     </div>
     <Adverts />
-    <div className='ash'>
+    <div className='second ash'>
         <div className='img'>
             image part
         </div>
         <div className='txt'>
-            <h3>Warehousing like never before</h3>
+            <h2>Warehousing like never before</h2>
             <p>Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. </p>
@@ -31,9 +31,9 @@ const HomePage = () => (
         </div>
     </div>
 
-    <div className='white'>
+    <div className='second'>
         <div className='txt'>
-            <h3>Fantastic phone deals</h3>
+            <h2>Fantastic phone deals</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -43,12 +43,12 @@ const HomePage = () => (
 
     </div>
 
-    <div className='ash'>
+    <div className='second ash'>
         <div className='img'>
             Image part
         </div>
         <div className='txt'>
-            <h3> Dependable escrow</h3>
+            <h2> Dependable escrow</h2>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
              eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,8 +56,10 @@ const HomePage = () => (
         </div>
 
     </div>
-    <div>
-        <h2> Testimonials</h2>
+
+
+    <div className='header-testimonials'>
+        <h1> Testimonials</h1>
         <div>
             <div>
             <img src='https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg' />

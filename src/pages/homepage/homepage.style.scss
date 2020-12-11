@@ -20,8 +20,8 @@
         }
     }
 
-    .ash {
-        background-color: #b1b1b1;
+    .second {
+        
         display: flex;
         flex-direction: horizontal;
         justify-content: space-between;
@@ -29,32 +29,28 @@
         .img{
             width: 50%;
             margin: 10px;
-            border: 2px solid brown;
+            
         }
         .txt{
             width: 50%;
             margin: 10px;
-            border: 2px solid red;
+            
+            h2,h3{
+                color: #118EE9;
+                font-family: 'OpenSans-Light';
+                font-weight: bolder;
+            }
+            p{
+                padding-left: 15%;
+                padding-right: 15%;
+                font-weight: lighter;
+            }
         }
 
     }
 
-    .white{
-        background-color: white;
-        display: flex;
-        flex-direction: horizontal;
-        justify-content: space-between;
-
-        .img{
-            width: 50%;
-            margin: 10px;
-            border: 2px solid brown;
-        }
-        .txt{
-            width: 50%;
-            margin: 10px;
-            border: 2px solid red;
-        }
+    .ash{
+        background-color:  #b1b1b1;
     }
 }
 
