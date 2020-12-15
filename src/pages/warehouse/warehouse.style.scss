@@ -3,19 +3,22 @@
 
     h1{
         font-size: 4.5em;
-        font-weight: lighter;
+        font-weight: bolder;
+        color: #118EE9;
+        font-family: 'OpenSans-Light';
     }
 
     .warehouse-content{
         display: flex;
         flex-direction: column;
         justify-items: left;
+        
+        margin-left: 10%;
+        margin-right: 10%;
 
         span{
             font-weight: lighter;
             margin: 10px;
-            margin-left: 10%;
-            margin-right: 10%;
             display: flex;
             text-align: left;
             font-size: 1.3em;
@@ -51,6 +54,59 @@
         
         }
        
+    }
+
+    .pricing{
+        
+        border: 3px dotted red;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        margin-bottom: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        span{
+            font-weight: lighter;
+            font-size: 3em;
+            color: #118EE9;
+            font-family: 'OpenSans-Light';
+            
+        }
+
+        .plans{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            
+
+            .plan{
+                border: 3px solid #118EE9;
+                border-radius: 10px;
+                width: 300px;
+                margin: 0 auto;
+                
+                
+                ul{
+                    
+                    margin: 10px;
+                    border: 1px solid yellow;
+                                 
+                    li{
+                        color: green;
+                        
+                    }
+                }
+                .thespan{
+                    border: 3px solid brown;
+                    span {
+                        font-size: 1em;
+                        margin-top: 20px;
+                        border: 2px solid blue;
+                    }
+                }
+            }
+       
+        }
     }
 }
 

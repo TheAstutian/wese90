@@ -23,21 +23,25 @@ const WareHouse = () => (
         </div>
         <div className='pricing'>
             <span> Pricing</span>
-            <div className='basic'>
+            <div className='plans'>
+            <div className='plan'>
                 <h2>Basic plan</h2>
                 <ul>
+                    <li>Proin ipsum risus, interdum quis Lorem ipsum dolor sit amet</li>
                     <li>Lorem ipsum dolor sit amet</li>
                     <li>Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
+                    <div className='thespan'><span> Price: $30/month</span></div>
                 </ul>
             </div>
-            <div className='gold'>
+            <div className='plan gold'>
                 <h2>Gold plan</h2>
                 <ul>
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Lorem ipsum dolor sit amet</li>
                 <li> consectetur adipiscing elit. </li>
                 </ul>
+                <div className='thespan'><span> Price: $50/month</span></div>
+            </div>
             </div>
 
         </div>
