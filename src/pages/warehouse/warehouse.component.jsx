@@ -30,8 +30,9 @@ const WareHouse = () => (
                     <li>Proin ipsum risus, interdum quis Lorem ipsum dolor sit amet</li>
                     <li>Lorem ipsum dolor sit amet</li>
                     <li>Lorem ipsum dolor sit amet</li>
-                    <div className='thespan'><span> Price: $30/month</span></div>
+                    <li>14-day money back guarantee</li>
                 </ul>
+                <div className='thespan'><span> Price: $30/month</span></div>
             </div>
             <div className='plan gold'>
                 <h2>Gold plan</h2>
@@ -39,6 +40,7 @@ const WareHouse = () => (
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Lorem ipsum dolor sit amet</li>
                 <li> consectetur adipiscing elit. </li>
+                <li>1 month money back guarantee</li>
                 </ul>
                 <div className='thespan'><span> Price: $50/month</span></div>
             </div>
