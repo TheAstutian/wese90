@@ -111,6 +111,19 @@
                     }
                 }
             }
+            button{
+                color: white;
+                background-color: #118EE9;
+               padding-top: 7px;
+               padding-bottom: 7px;
+               padding-left: 10px;
+               padding-right: 10px;
+               border-radius: 3px;
+               border-color: white;
+               font-family: 'OpenSans-Light';
+               cursor: pointer;
+               margin-bottom: 20px;
+            }
             .gold{
                 border: 3px solid gold;
             }
@@ -118,5 +131,14 @@
        
         }
     }
+}
+.prefooter{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+span{
+    font-weight: lighter;
+    font-size: 1.3em;
+}
 }
 
