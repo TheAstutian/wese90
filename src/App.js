@@ -9,6 +9,7 @@ import Navigation from './components/navigation/navigation.component';
 import WareHouse from './pages/warehouse/warehouse.component';
 import ContactUs from './pages/contact/contact.component';
 import Adverts from './components/adverts/adverts.component';
+import About from './pages/about/about.component';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
        <Route exact path='/' component={HomePage} />
        <Route exact path="/warehouse" component={WareHouse} />
        <Route exact path="/contact" component={ContactUs} />
+       <Route exact path="/about" component={About} />
        <Route exact path="/adspage" component={Adverts} />
      </Switch>
     </div>
