@@ -50,7 +50,7 @@ const WareHouse = () => (
             
         </div>
         <div className='prefooter'><span>Sed vitae orci commodo, pretium lorem at, pretium quam. In nisi ante, dictum et pharetra sed, pulvinar eget felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur non justo massa. Aliquam non ante et est porta pellentesque. Nunc suscipit, odio ut bibendum dignissim, purus risus euismod risus, at aliquet quam metus eget libero. Duis sollicitudin justo mi, eget imperdiet eros pulvinar in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></div>
-        <Footer />
+        
     </div>
     
 )

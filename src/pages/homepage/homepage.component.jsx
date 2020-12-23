@@ -59,7 +59,7 @@ const HomePage = () => (
             <h2> Dispatch Service</h2>
             <p> Do you need to get your goods over to your customers?</p>
             <p>Look no further, we're your plug!</p>
-            <a href="https://wa.link/no3b4t"><button>Use Service</button></a>
+            <Link to='/dispatch'><button>Use Service</button></Link>
         </div>
 
         <div className='img'>
@@ -99,7 +99,7 @@ const HomePage = () => (
         </div>
     </div>
 
-    <Footer />
+    
 </div>
 
 );
