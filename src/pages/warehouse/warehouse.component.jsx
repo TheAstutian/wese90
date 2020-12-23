@@ -4,13 +4,16 @@ import './warehouse.style.scss'
 
 const WareHouse = () => (
     <div className='div'>
-        <h1>World class Warehousing</h1>
+        <h1>Worldclass Warehousing</h1>
         <div className='warehouse-content'>
             
-        <span>Sed nisi purus, placerat non metus sed, convallis viverra neque. </span>
-        <span>Proin ipsum risus, interdum quis ipsum eu, dignissim molestie lectus. Mauris vel accumsan tellus, ac maximus est. Donec vel lacus consectetur urna porta semper vel at nulla. Curabitur facilisis commodo diam id laoreet. Integer rhoncus tincidunt elit, in luctus ex fringilla in. Phasellus blandit, augue at convallis cursus, nulla arcu posuere nulla, ut consequat eros massa ut sapien. Mauris mollis, sapien ac finibus finibus, mauris leo luctus elit, id rutrum sapien ligula condimentum risus. Aliquam ligula urna, iaculis id dapibus ac, tristique condimentum nisi. Quisque auctor sem erat, at fringilla ex vehicula ut.</span>
+        <span>Doing business in Nigeria is not easy. The system is rusty and there’s a ton of obstacles to overcome before you can get things done. To be a successful entrepreneur, you need to be smart and more importantly, have the right connections.  </span>
+        <span>This is where we come in. As an xxx dealhunter/ seller or retailer based inside or outside of Lagos, you need a safe plug that is familiar with the terrain to handle your items. </span>
+        
         <img src='https://images.unsplash.com/photo-1590247813693-5541d1c609fd' />
-        <span>Quisque urna lorem, iaculis feugiat sodales sit amet, ultrices sed elit. Aliquam venenatis mi in dui vestibulum bibendum. Duis ultrices nulla diam, in auctor lacus ullamcorper ut. Nullam maximus augue consectetur tellus tempus interdum. Donec ac neque varius elit auctor convallis. Nulla facilisi. Sed nec tempor libero. Aenean condimentum suscipit mi in luctus. Sed porttitor eget urna in mollis.</span>
+        <span>What we do is provide an ultra safe environment for your clients to come observe or pick up their packages. We cater to entities based in Lagos but our focus is on dealhunters outside Lagos. </span>
+        <span>You can have your items delivered to our home/office address and have items dispatched to clients/customers directly from there. Or your clients can come around in person to pick up their items. We are pretty flexible like that. </span>
+
         <div className='bullets'>
         <ol>
                 <li>Donec in lorem sit amet </li>
@@ -19,7 +22,7 @@ const WareHouse = () => (
                 <li>eu blandit dolor venenatis. </li>
             </ol>
         </div>
-        <span>Sed vitae orci commodo, pretium lorem at, pretium quam. In nisi ante, dictum et pharetra sed, pulvinar eget felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur non justo massa. Aliquam non ante et est porta pellentesque. Nunc suscipit, odio ut bibendum dignissim, purus risus euismod risus, at aliquet quam metus eget libero. Duis sollicitudin justo mi, eget imperdiet eros pulvinar in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+        <span>Let us help you solve your problems. We are only a call/text away.</span>
         </div>
         <div className='pricing'>
             <span> Pricing</span>
@@ -49,7 +52,7 @@ const WareHouse = () => (
             </div>
             
         </div>
-        <div className='prefooter'><span>Sed vitae orci commodo, pretium lorem at, pretium quam. In nisi ante, dictum et pharetra sed, pulvinar eget felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur non justo massa. Aliquam non ante et est porta pellentesque. Nunc suscipit, odio ut bibendum dignissim, purus risus euismod risus, at aliquet quam metus eget libero. Duis sollicitudin justo mi, eget imperdiet eros pulvinar in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></div>
+        <div className='prefooter'><span>Let us help you solve your problems. We are only a call/text away.</span></div>
         
     </div>
     
