@@ -1,0 +1,27 @@
+.about-container{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    span{
+        color: #118EE9;
+        font-family: 'OpenSans-Light';
+        font-size: 3em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about-content{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 50px;
+        
+        
+        p{
+            font-weight: lighter;
+            font-size: 1.5em;
+            text-align: left;
+            padding-left: 10%;
+        }
+    }
+}

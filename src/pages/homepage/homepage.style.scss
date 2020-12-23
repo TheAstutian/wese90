@@ -25,8 +25,6 @@
     .second {
         
         display: flex;
-        flex-direction: horizontal;
-        justify-content: space-between;
         padding-bottom: 50px;
         padding-top: 50px;
 
@@ -87,14 +85,14 @@
     }
 
     .ash{
-        background-color:  #b1b1b1;
+        background-color:  #dbdbdb;
     }
 
     .header-testimonials{
 
         width: 100%; 
         padding-top: 30px;
-
+        
         h1{
             color: #118EE9;
             font-family: 'OpenSans-Light';

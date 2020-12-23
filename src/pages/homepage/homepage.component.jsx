@@ -48,13 +48,35 @@ const HomePage = () => (
         <div className='txt'>
             <h2> Dependable Escrow</h2>
             <p> Facilitate your next business deal with our escrow service. It is tested and trusted, and it won't cost you a dime. </p>
-            <a href="https://wa.link/no3b4t"><button>Use this service!</button></a>
+            <a href="https://wa.link/no3b4t"><button>Do Deals</button></a>
         </div>
 
     </div>
 
+    <div className='second'>
+        
+        <div className='txt'>
+            <h2> Dispatch Service</h2>
+            <p> Do you need to get your goods over to your customers?</p>
+            <p>Look no further, we're your plug!</p>
+            <a href="https://wa.link/no3b4t"><button>Use Service</button></a>
+        </div>
 
-    <div className='header-testimonials'>
+        <div className='img'>
+            <img src='https://images.unsplash.com/photo-1548695607-9c73430ba065' />
+        </div>
+
+    </div>
+
+    
+       <div className='advert ash'>
+       <p>Advertize with us</p>
+        <p>Sed nisi purus, placerat non metus sed, convallis viverra neque.</p>
+       </div>
+    
+
+
+    <div className='header-testimonials '>
         <h1> What People Say About Us</h1>
         <div className='testimonial-container'>
             <div className='testimony'>
