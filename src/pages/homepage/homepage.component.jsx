@@ -11,11 +11,8 @@ const HomePage = () => (
         
     <div className='first'>
         <span>Relax, local man's got you</span>
-        <p>We connect ground-breaking technology with Life Storage's Storage
-            
-            asset management platform to provide a warehousing and 
-            distribution solution never seen before in the industry. 
-        </p>
+        <i><p>We provide a comfortable waiting space for your goods </p>
+        <p>so that your life can be easier. </p> </i>
     </div>
     
     <div className='second ash'>
@@ -23,21 +20,20 @@ const HomePage = () => (
             <img src='https://images.unsplash.com/photo-1549194388-f61be84a6e9e' />
         </div>
         <div className='txt'>
-            <h2>Warehousing like never before</h2>
-            <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. </p>
-                <Link to='/warehouse'> <button>More details</button></Link>
+            <h2> Competent Warehousing</h2>
+            <p>Our warehouse is like a coccoon for your goods to nest in, warm and secure. We simply make the journey from buyer to seller smooth and easy.</p>
+            <p>And our added services will endear you to us. </p>
+                <Link to='/warehouse'> <button>Learn More</button></Link>
 
         </div>
     </div>
 
     <div className='second'>
         <div className='txt'>
-            <h2>Fantastic phone deals</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <Link to='/adspage'><button>Explore!</button></Link>
+            <h2>Fantastic Phone Deals</h2>
+            <p>We offer premium iPhones and devices at the best rates hardly found in the country. Our goal is to get you the device you want, at the time you want it.</p>
+            <p>We are also open to helping you market your products in our adverts page.</p>
+                <Link to='/adspage'><button>Explore</button></Link>
         </div>
         <div className='img'>
             <img src='https://c1.wallpaperflare.com/preview/628/494/472/phone-iphone-apple-earbuds.jpg' />
@@ -50,11 +46,8 @@ const HomePage = () => (
             <img src='https://images.unsplash.com/photo-1588130721958-d1392d36ed94' />
         </div>
         <div className='txt'>
-            <h2> Dependable escrow</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2> Dependable Escrow</h2>
+            <p> Facilitate your next business deal with our escrow service. It is tested and trusted, and it won't cost you a dime. </p>
             <a href="https://wa.link/no3b4t"><button>Use this service!</button></a>
         </div>
 
@@ -62,7 +55,7 @@ const HomePage = () => (
 
 
     <div className='header-testimonials'>
-        <h1> Testimonials</h1>
+        <h1> What People Say About Us</h1>
         <div className='testimonial-container'>
             <div className='testimony'>
             <img src='https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg' />

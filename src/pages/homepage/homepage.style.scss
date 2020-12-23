@@ -4,20 +4,22 @@
     .first{
         display: block;
         padding-top: 50px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+        
         span{
-            font-weight: normal;
+            font-weight: bold;
             font-size: 2.5em;
             font-family: 'OpenSans-Light';
             color: #118EE9;
-            margin: 10px;
         }
-        p{
-            font-weight: lighter;
-            width: 50%;
-            margin: 0 auto;
-
-        }
+      
+            p{
+                font-weight: lighter;
+                width: 50%;
+                margin: 0 auto;
+                
+            }
+        
     }
 
     .second {
@@ -25,40 +27,43 @@
         display: flex;
         flex-direction: horizontal;
         justify-content: space-between;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
 
         .img{
-            width: 50%;
-            margin: 10px;
+            width: 40%;
+            
             padding-top: 20px;
             padding-bottom: 20px;
+            
             img{
-                width: 60%;
+                width: 70%;
                 height: 100%;
+                
             }
         }
         .txt{
-            width: 50%;
-            margin: 10px;
+            width: 60%;
             
-            h2,h3{
+            h2{
+                
                 color: #118EE9;
                 font-family: 'OpenSans-Light';
-                font-weight: bolder;
+                font-weight: bold;
+                font-size: 2em;
+                text-align: left;
+                margin-left: 10%;
             }
             p{
-                padding-left: 15%;
-                padding-right: 15%;
-                font-weight: lighter;
-                padding-bottom: 20px;
+                padding-left: 10%;
+                padding-right: 10%;
+                font-weight: normal;
+                text-align: left;
             }
             button{
-                display: flex;
-                margin: 0 auto;
                 padding: 0.9em 1.5em;
                 border: 0.01em solid #118EE9;
-                border-radius: 0.12em;
+                border-radius: 0.3em;
                 box-sizing: border-box;
                 text-decoration: none;
                 font-family: 'OpenSans-Light';
@@ -69,6 +74,9 @@
                 transition: all 0.2s; 
                 background-color: transparent; 
                 cursor: pointer;
+                margin-top: 5%;
+                display: flex;
+                margin-left: 15%;
             }
             button:hover{
                 background-color: #118EE9;
@@ -85,15 +93,16 @@
     .header-testimonials{
 
         width: 100%; 
-       
+        padding-top: 30px;
 
         h1{
             color: #118EE9;
             font-family: 'OpenSans-Light';
-            font-weight: bolder;
+            color: black;
             padding-top: 20px;
             padding-bottom: 20px;
-            font-weight: lighter;
+            font-weight: bold;
+            font-size: 2.5em;
             
         }
         .testimonial-container{
@@ -102,6 +111,8 @@
             flex-direction: column;
             justify-items: center;
             padding: 10px;
+            padding-top: 30px;
+            
             .testimony{
                 padding-top: 5px;
                 padding-bottom: 50px;
