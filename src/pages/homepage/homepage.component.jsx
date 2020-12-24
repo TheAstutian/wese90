@@ -70,9 +70,9 @@ const HomePage = () => (
 
     
        <div className='advert ash'>
-       <span>Advertize with us</span>
-        <p>Do you have a great product you want to get out there? Take advantage of our ad network to reach your target customers! </p>
-        <Link to='/adspage'><button>Visit Ads Page</button></Link>
+       <span>Advertize with us!</span>
+        <p>Do you have a great product you want to get out there?</p><p>Take advantage of our ad network to reach your target customers! </p>
+        <Link to='/adspage'><button>Ad Page</button></Link>
        </div>
     
 

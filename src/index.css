@@ -21,3 +21,8 @@ code {
   font-family: 'OpenSans-Light';
   src: local('OpenSans-Light'), url(./fonts/OpenSans-Light.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'CocoBiker';
+  src: local('CocoBiker'), url(./fonts/CocoBiker.ttf) format('truetype');
+}
