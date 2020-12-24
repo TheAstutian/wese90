@@ -57,8 +57,8 @@ const HomePage = () => (
         
         <div className='txt'>
             <h2> Dispatch Service</h2>
-            <p> Do you need to get your goods over to your customers?</p>
-            <p>Look no further, we're your plug!</p>
+            <p> Do you need to get your goods over to your customers? Look no further, we're your plug!</p>
+            <p>We deliver packages from Lagos to anywhere in the country.</p>
             <Link to='/dispatch'><button>Use Service</button></Link>
         </div>
 
@@ -70,8 +70,9 @@ const HomePage = () => (
 
     
        <div className='advert ash'>
-       <p>Advertize with us</p>
-        <p>Sed nisi purus, placerat non metus sed, convallis viverra neque.</p>
+       <span>Advertize with us</span>
+        <p>Do you have a great product you want to get out there? Take advantage of our ad network to reach your target customers! </p>
+        <Link to='/adspage'><button>Visit Ads Page</button></Link>
        </div>
     
 

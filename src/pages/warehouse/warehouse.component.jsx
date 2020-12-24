@@ -14,14 +14,6 @@ const WareHouse = () => (
         <span>What we do is provide an ultra safe environment for your clients to come observe or pick up their packages. We cater to entities based in Lagos but our focus is on dealhunters outside Lagos. </span>
         <span>You can have your items delivered to our home/office address and have items dispatched to clients/customers directly from there. Or your clients can come around in person to pick up their items. We are pretty flexible like that. </span>
 
-        <div className='bullets'>
-        <ol>
-                <li>Donec in lorem sit amet </li>
-                <li>purus consequat cursus ut id lacus. </li>
-                <li>Proin aliquam nisi sit amet leo euismod, </li>
-                <li>eu blandit dolor venenatis. </li>
-            </ol>
-        </div>
         <span>Let us help you solve your problems. We are only a call/text away.</span>
         </div>
         <div className='pricing'>
@@ -30,29 +22,38 @@ const WareHouse = () => (
             <div className='plan'>
                 <h2>Basic plan</h2>
                 <ul>
-                    <li>Proin ipsum risus, interdum quis Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>14-day money back guarantee</li>
+                    <li>Basic storage space</li>
+                    <li>Discount on number of items</li>
+                    <li>Free ad on Wese90</li>
+                    <li>Pickup by customer</li>
+                    
                 </ul>
-                <div className='thespan'><span> Price: $30/month</span></div>
-                <button>Purchase</button>
+                <div className='thespan'><span> Price: N500/item</span></div>
+                
             </div>
             <div className='plan gold'>
                 <h2>Gold plan</h2>
                 <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li> consectetur adipiscing elit. </li>
-                <li>1 month money back guarantee</li>
+                <li>Unlimited storage space</li>
+                <li>Free ad on Wese90</li>
+                <li>Drop shipping</li>
+                <li>Pickup by customer</li>
+                <li>Post-pickup/customer care service</li>
+                <li>Discounted delivery to customer  </li>
+                
                 </ul>
-                <div className='thespan'><span> Price: $50/month</span></div>
-                <button>Purchase</button>
+                <div className='thespan'><span> Price: N10,000/month</span></div>
+                
             </div>
             </div>
             
         </div>
-        <div className='prefooter'><span>Let us help you solve your problems. We are only a call/text away.</span></div>
+        <div className='prefooter'>
+                <span>Note: These terms and prices are prone to changes and this page will be updated accordingly.
+                    Furthermore, we are pretty flexible so if these plans don't fit, talk to us!
+                </span>
+                <span>Let us help you solve your problems. We are only a call/text away.</span>
+        </div>
         
     </div>
     
