@@ -59,7 +59,7 @@ const HomePage = () => (
             <h2> Dispatch Service</h2>
             <p> Do you need to get your goods over to your customers? Look no further, we're your plug!</p>
             <p>We deliver packages from Lagos to anywhere in the country.</p>
-            <Link to='/dispatch'><button>Use Service</button></Link>
+            <Link to='/dispatch'><button>Send Packages</button></Link>
         </div>
 
         <div className='img'>
@@ -78,7 +78,7 @@ const HomePage = () => (
 
 
     <div className='header-testimonials '>
-        <h1> What People Say About Us</h1>
+        <h1> What Our Customers Say</h1>
         <div className='testimonial-container'>
             <div className='testimony'>
             <img src='https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg' />
@@ -100,6 +100,9 @@ const HomePage = () => (
         </div>
     </div>
 
+    <div className='about-us'>
+
+    </div>
     
 </div>
 

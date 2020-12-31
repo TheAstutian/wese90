@@ -12,8 +12,8 @@ const Navigation = () => (
         
         <div className='nav-menus'>
             <Link to='/warehouse'><div className='first'><p>How it works</p></div></Link>
-            <Link to='/about'><div className='first'><p>About Us</p></div></Link>
-            <Link to='/contact'><div className='second'> <Button>Contact Us</Button></div></Link>
+            
+            <Link to='/about'><div className='second'> <Button>About Us</Button></div></Link>
         </div>
     </div>
 );
