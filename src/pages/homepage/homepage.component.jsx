@@ -4,6 +4,7 @@ import Footer from '../../components/footer/footer.component';
 import {Link } from 'react-router-dom';
 import './homepage.style.scss';
 import Adverts from '../../components/adverts/adverts.component';
+import ContactUs from '../contact/contact.component';
 
 const HomePage = () => (
     <div className='homepage-container'>
@@ -101,6 +102,7 @@ const HomePage = () => (
     </div>
 
     <div className='about-us'>
+        <ContactUs />
 
     </div>
     
