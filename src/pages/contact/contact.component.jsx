@@ -1,22 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
+
 
 const ContactUs = () => (
     <div>
-        <h1>Contact Page</h1>
+        
 
         <div>
-                <form className="contact-form" onSubmit={ (e) => this.formSubmit(e)}>
-                        <label class="message" htmlFor="message-input">Your Message</label>
-                        <textarea onChange={e => this.setState({ message: e.target.value})} name="message" class="message-input" type="text" placeholder="Please write your message here" value={this.state.message} required/>
+                <form className="contact-form" >
+                        
+                        <input  name="name" class="message-name" type="text" placeholder="Your Name" />
 
-                        <label class="message-name" htmlFor="message-name">Your Name</label>
-                        <input onChange={e => this.setState({ name: e.target.value})} name="name" class="message-name" type="text" placeholder="Your Name" value={this.state.name}/>
-
-                        <label class="message-email" htmlFor="message-email">Your Email</label>
-                        <input onChange={(e) => this.setState({ email: e.target.value})} name="email" class="message-email" type="email" placeholder="your@email.com" required value={this.state.email} />
+                        <input  name="email" class="message-email" type="email" placeholder="your@email.com" required  />
+                        <textarea  name="message" class="message-input" type="text" placeholder="Please write your message here" required/>
 
                         <div className="button--container">
-                            <button type="submit" className="button button-primary">{ this.state.buttonText }</button>
+                            <button type="submit" className="button button-primary">Submit</button>
                         </div>
                 </form>
 
