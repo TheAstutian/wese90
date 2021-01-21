@@ -20,10 +20,10 @@ const ContactUs = () => {
         <div>
                 <form className="contact-form" >
                         
-                        <input  name="name" class="message-name" type="text" placeholder="Your Name" />
+                        <input required id='full-name' name="name" value={data.name} onChange={handleChange} type="text" placeholder="Full name" />
 
-                        <input  name="email" class="message-email" type="email" placeholder="your@email.com" required  />
-                        <textarea  name="message" class="message-input" type="text" placeholder="Please write your message here" required/>
+                        <input required id='email' name="email"  type="email" placeholder="your@email.com" value={data.email} onChange={handleChange}  />
+                        <textarea required name="message" class="message-input" type="text" placeholder="Please write your message here" value={data.message} onChange={handleChange}/>
 
                         <div className="button--container">
                             <button type="submit" className="button">Submit</button>
