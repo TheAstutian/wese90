@@ -55,6 +55,17 @@ const ContactUs = () => {
         })
     }
 
+    const resetForm = () => {
+        setData({
+            name: '',
+            email: '',
+            message: '',
+            sent: false,
+            buttonText: 'Submit',
+            err: ''
+        });
+    }
+
     return (
         <div>
         
@@ -68,7 +79,7 @@ const ContactUs = () => {
                         <textarea required name="message" class="message-input" type="text" placeholder="Please write your message here" value={data.message} onChange={handleChange}/>
 
                         <div className="button--container">
-                            <button type="submit" className="button">Submit</button>
+                            <button type="submit" className="button" onClick={formSubmit}>{data.buttonText}</button>
                         </div>
                 </form>
 
