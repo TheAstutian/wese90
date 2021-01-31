@@ -1,0 +1,36 @@
+.ad-container{
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+
+    h1{
+        font-size: 3em;
+        font-weight: normal;
+        color: #118EE9;
+        font-family: 'OpenSans-Light';
+        margin-bottom: 50px;
+    }
+
+    span{
+        font-weight: lighter;
+        margin: 10px;
+        display: flex;
+        text-align: left;
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .the-images{
+        
+        img{
+            width: 500px;
+            height: 300px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+            display: block;
+            
+        }
+    }
+}
