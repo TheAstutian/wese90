@@ -69,6 +69,19 @@ const HomePage = () => (
 
     </div>
 
+    <div className='second ash'>
+        <div className='img'>
+            <img src='https://images.unsplash.com/photo-1562774555-079298a31cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80' />
+        </div>
+        <div className='txt'>
+            <h2> iPhone Unlock</h2>
+            <p> Is your iPhone locked? Are you blocked from using the phone? No shame, we can make it work again. </p>
+            <p> Either with a chip or with no chip, dry bones shall rise again. </p>
+            <a href="https://wa.link/no3b4t"><button>Learn More</button></a>
+        </div>
+
+    </div>
+
     
        <div className='advert ash'>
        <span>Advertize with us!</span>
