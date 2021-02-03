@@ -28,12 +28,24 @@
         flex-wrap: wrap;
         padding-top: 50px; 
         img{
-            width: 300px;
-            height: 200px;
+            max-width: 150px;
+            min-width: 100px;
+            min-height: 100px;
+            max-height: 150px;
             margin-left: 50px;
             margin-bottom: 50px;
             display: block;
             
+        }
+    }
+    .ad-items{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        .item{
+            width: 150px;
+            height: 150px;
+            background-color: pink;
         }
     }
 }
