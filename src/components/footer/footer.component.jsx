@@ -3,7 +3,9 @@ import './footer.style.scss'
 
 const Footer = () => (
 <div className='footer'>
-    <div className='footer-container'><span>Copyright 2020, The Astutians. </span></div>
+    <div className='footer-container'>
+        <span>Copyright 2020, The Astutians. </span>
+    </div>
 </div>
 )
 

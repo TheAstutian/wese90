@@ -115,7 +115,7 @@ const HomePage = () => (
     </div>
 
     <div className='about-us'>
-        <ContactUs />
+        
 
     </div>
     

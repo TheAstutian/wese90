@@ -5,17 +5,17 @@ exports.handler = function(event, context, callback) {
     let data = JSON.parse(event.body)
 
     let transporter = nodemailer.createTransport({
-        host: [your smtp server],
-        port: [smtp server port],
+        host: ['smtp.zoho.com'],
+        port: [465],
         auth: {
-            user: [smtp sever username],
-            pass: [smtp server password]
+            user: ['wese90'],
+            pass: ['wasabi09@']
         }
     });
 
     transporter.sendMail({
-        from: [smtp server email addrss]
-        to: [recipient email address],
+        from: ['wese90@zohomail.com'],
+        to: [''],
         subject: `Sending with React, Nodemailer and Netlifty`,
         html: `
         <h3> Email from ${data.name} ${data.email}<h3>
