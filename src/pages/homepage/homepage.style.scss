@@ -91,10 +91,9 @@
     .advert{
         padding-top: 50px;
         padding-bottom: 50px;
-        border-top: 0.002em solid #964B00;
-        border-bottom: 0.002em solid #964B00;
+        background-color: grey;
         span{
-            color: red;
+            color: silver;
             font-size: 3em;
             font-style: Italic;
             font-family: 'CocoBiker';
@@ -102,20 +101,20 @@
         p{
             font-family: 'OpenSans-Light';
             font-size: 1.2em;
-            color: #964B00;
+            color: white;
             font-weight: lighter;
             font-style: italic;
         }
         button{
             padding: 0.9em 1.5em;
-                border: 0.01em solid red;
+                border: 0.01em solid white;
                 border-radius: 0.3em;
                 box-sizing: border-box;
                 text-decoration: none;
                 font-family: 'OpenSans-Light';
                 font-weight: bold;
                 font-size: 0.9em;
-                color: red;
+                color: silver;
                 text-align: center;
                 transition: all 0.2s; 
                 background-color: transparent; 
@@ -124,8 +123,8 @@
                 margin: 0 auto;
             }
             button:hover{
-                background-color: red;
-                color: white;
+                background-color: white;
+                color: grey;
         }
     }
 
