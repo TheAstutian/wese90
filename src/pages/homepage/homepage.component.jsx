@@ -1,10 +1,7 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
-import Footer from '../../components/footer/footer.component';
 import {Link } from 'react-router-dom';
 import './homepage.style.scss';
-import Adverts from '../../components/adverts/adverts.component';
-import ContactUs from '../contact/contact.component';
 
 const HomePage = () => (
     <div className='homepage-container'>
@@ -37,14 +34,14 @@ const HomePage = () => (
                 <Link to='/adspage'><button>Explore</button></Link>
         </div>
         <div className='img'>
-            <img src='https://c1.wallpaperflare.com/preview/628/494/472/phone-iphone-apple-earbuds.jpg' />
+            <img alt='1' src='https://c1.wallpaperflare.com/preview/628/494/472/phone-iphone-apple-earbuds.jpg' />
         </div>
 
     </div>
 
     <div className='second ash'>
         <div className='img'>
-            <img src='https://images.unsplash.com/photo-1588130721958-d1392d36ed94' />
+            <img alt='2' src='https://images.unsplash.com/photo-1588130721958-d1392d36ed94' />
         </div>
         <div className='txt'>
             <h2> Dependable Escrow</h2>
@@ -64,14 +61,14 @@ const HomePage = () => (
         </div>
 
         <div className='img'>
-            <img src='https://images.unsplash.com/photo-1548695607-9c73430ba065' />
+            <img alt='3' src='https://images.unsplash.com/photo-1548695607-9c73430ba065' />
         </div>
 
     </div>
 
     <div className='second ash'>
         <div className='img'>
-            <img src='https://images.unsplash.com/photo-1562774555-079298a31cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80' />
+            <img alt='4' src='https://images.unsplash.com/photo-1562774555-079298a31cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80' />
         </div>
         <div className='txt'>
             <h2> iPhone Unlock</h2>
