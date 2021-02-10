@@ -15,7 +15,7 @@ const HomePage = () => (
     
     <div className='second ash'>
         <div className='img'>
-            <img alt='01' src='https://images.unsplash.com/photo-1549194388-f61be84a6e9e' />
+            <img alt='01' src='https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80' />
         </div>
         <div className='txt'>
             <h2> Competent Warehousing</h2>
@@ -34,7 +34,7 @@ const HomePage = () => (
                 <Link to='/adspage'><button>Explore</button></Link>
         </div>
         <div className='img'>
-            <img alt='1' src='https://c1.wallpaperflare.com/preview/628/494/472/phone-iphone-apple-earbuds.jpg' />
+            <img alt='1' src='https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80' />
         </div>
 
     </div>
