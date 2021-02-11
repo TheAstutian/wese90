@@ -9,8 +9,10 @@ const HomePage = () => (
         
     <div className='first'>
         <span>Relax, local man's got you</span>
-        <i><p>We provide a comfortable waiting space for your goods </p>
-        <p>so that your life can be easier. </p> </i>
+        <div className='ip'>
+            <i><p>We provide a comfortable waiting space for your goods </p>
+            <p>so that your life can be easier. </p> </i>
+        </div>
     </div>
     
     <div className='second ash'>

@@ -58,7 +58,9 @@
                 font-family: 'OpenSans-Light';
                 cursor: pointer;
                 
-                
+                @media screen and (max-width: 800px) {
+                    border-radius: 1em;
+                }
                 
              }
             }
