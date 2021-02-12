@@ -11,6 +11,7 @@ import Adverts from './components/adverts/adverts.component';
 import About from './pages/about/about.component';
 import Dispatch from './pages/dispatch/dispatch.component';
 import Footer from './components/footer/footer.component';
+import ScrollToTop from './scrollToTop';
 
 
 function App() {
@@ -18,15 +19,16 @@ function App() {
 
     <div className="App">
       <Navigation />
-
-     <Switch>
-       <Route exact path='/' component={HomePage} />
-       <Route exact path="/warehouse" component={WareHouse} />
-       <Route exact path="/contact" component={ContactUs} />
-       <Route exact path="/about" component={About} />
-       <Route exact path="/adspage" component={Adverts} />
-       <Route exact path="/dispatch" component={Dispatch} />
-     </Switch>
+      <ScrollToTop>
+            <Switch>
+              <Route exact path='/' component={HomePage} />
+              <Route exact path="/warehouse" component={WareHouse} />
+              <Route exact path="/contact" component={ContactUs} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/adspage" component={Adverts} />
+              <Route exact path="/dispatch" component={Dispatch} />
+            </Switch>
+      </ScrollToTop>
 
      <Footer/>
     </div>
