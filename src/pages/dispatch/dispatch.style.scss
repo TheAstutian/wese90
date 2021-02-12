@@ -1,7 +1,7 @@
 .dispatch-container{
     display: flex;
     flex-direction: column;
-
+    
     h1 {
         color: #118EE9;
         font-family: 'OpenSans-Light';
@@ -10,8 +10,10 @@
     .content{
         margin-left: 10%;
         margin-right: 10%;
-
-
+        
+        @media screen and (max-width: 800px) {
+            margin: 0 10px;
+        }
         span {
         
             font-family: 'OpenSans-Light';
@@ -24,6 +26,45 @@
             text-align: left;
             margin: 10px;
             line-height: 2em;
+        }
+        .dispatch-button{
+            margin: 30px;
+            margin-bottom: 50px;
+            button{
+                padding: 0.9em 1.5em;
+                border: 0.01em solid #118EE9;
+                border-radius: 0.3em;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-family: 'OpenSans-Light';
+                font-weight: bolder;
+                font-size: 0.9em;
+                color: #118EE9;
+                text-align: center;
+                transition: all 0.2s; 
+                background-color: transparent; 
+                cursor: pointer;
+                margin: 0 auto;
+                margin-top: 5%;
+                display: flex;
+                a{
+                    color: #118EE9;
+                }
+                @media screen and (max-width: 800px) {
+                    border-radius: 1em;
+                }
+
+               
+                }
+                button:hover{
+
+                    background-color: #118EE9;
+                    a{
+                        color: white;
+                        
+                    }
+                
+            }
         }
     }
 }

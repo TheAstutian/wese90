@@ -12,7 +12,9 @@ const Dispatch = () => (
         <p>2. Payment before delivery. Once your payment is confirmed, your order will be placed.</p>        
         <p>3. Our delivery fees can vary from time to time, depending on a lot of factors including but not limited to distance, weather, time availability of rider and so on.</p>
         <p>4. Always share evidence of payment made on WhatsApp. It's only after payment is confirmed that your pickup/delivery order will be made.</p>
-        Click here to order our dispatch service
+        <div className='dispatch-button'>
+          <button><a href='https://wa.link/27l6nq'>Make an Order</a></button>
+        </div>
       </div>
     </div>
 );

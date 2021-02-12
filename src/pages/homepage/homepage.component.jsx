@@ -23,7 +23,7 @@ const HomePage = () => (
             <h2> Competent Warehousing</h2>
             <p>Our warehouse is like a coccoon for your goods to nest in, warm and secure. We simply make the journey from buyer to seller smooth and easy.</p>
             <p>And our added services will endear you to us. </p>
-                <Link to='/warehouse'> <button>Learn More</button></Link>
+                <button><Link to='/warehouse'> Learn More</Link></button>
 
         </div>
     </div>
@@ -33,7 +33,7 @@ const HomePage = () => (
             <h2>Fantastic Phone Deals</h2>
             <p>We offer premium iPhones and devices at the best rates hardly found in the country. Our goal is to get you the device you want, at the time you want it.</p>
             <p>We are also open to helping you market your products in our adverts page.</p>
-                <Link to='/adspage'><button>Explore</button></Link>
+            <button><Link to='/adspage'> Learn More</Link></button>
         </div>
         <div className='img'>
             <img alt='1' src='https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80' />
@@ -48,7 +48,7 @@ const HomePage = () => (
         <div className='txt'>
             <h2> Dependable Escrow</h2>
             <p> Facilitate your next business deal with our escrow service. It is tested and trusted, and it won't cost you a dime. </p>
-            <a href="https://wa.link/0ia8aw"><button>Do Deals</button></a>
+            <button><a href="https://wa.link/0ia8aw">Do Deals</a></button>
         </div>
 
     </div>
@@ -59,7 +59,7 @@ const HomePage = () => (
             <h2> Dispatch Service</h2>
             <p> Do you need to get your goods over to your customers? Look no further, we're your plug!</p>
             <p>We deliver packages from Lagos to anywhere in the country.</p>
-            <Link to='/dispatch'><button>Send Packages</button></Link>
+            <button><Link to='/dispatch'> Learn More</Link></button>
         </div>
 
         <div className='img'>
@@ -76,7 +76,7 @@ const HomePage = () => (
             <h2> iPhone Unlock</h2>
             <p> Is your iPhone locked? Are you blocked from using the phone? No shame, we can make it work again. </p>
             <p> Either with a chip or with no chip, dry bones shall rise again. </p>
-            <a href="https://wa.link/no3b4t"><button>Learn More</button></a>
+            <button><a href="https://wa.link/no3b4t">Learn More</a></button>
         </div>
 
     </div>
@@ -113,7 +113,7 @@ const HomePage = () => (
     <div className='advert grey'>
        <span>Advertize with us!</span>
         <p>Do you have a great product you want to get out there?</p><p>Take advantage of our ad network to reach your target customers! </p>
-        <Link to='/adspage'><button>Ad Page</button></Link>
+        <button><Link to='/adspage'>Ad Page</Link></button>
        </div>
 
     </div>
