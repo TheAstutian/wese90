@@ -27,7 +27,7 @@ const WareHouse = () => (
                     <li>Pickup by customer</li>
                     
                 </ul>
-                <div className='thespan'><span> Price: N500/item</span></div>
+                <div className='thespan'><button><a href='https://wa.link/euoljv'>Price: N500/item</a></button></div>
                 
             </div>
             <div className='plan gold'>
@@ -41,7 +41,7 @@ const WareHouse = () => (
                 <li>Discounted delivery to customer  </li>
                 
                 </ul>
-                <div className='thespan'><span> Price: N10,000/month</span></div>
+                <div className='thespan'><button><a href='https://wa.link/ou8917'>Price: N10,000/month</a></button></div>
                 
             </div>
             </div>
