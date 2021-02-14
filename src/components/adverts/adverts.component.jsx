@@ -3,7 +3,12 @@ import './adverts.style.scss';
 
 const Adverts = () =>(
     <div className='ad-container'>
-        <h1>Adverts</h1>
+        <h1>Phones! Laptops!! Gadgets!!!</h1>
+        <span>We deal with  high-quality and premium products and we've got some fantastic deals for you. We've got iPhones 8, X, 11 and 12. We also deal in iPhone accessories, Macbooks, and other tech gadgets. </span>
+        <span>You can put in a request stating what sort of iPhone or gadget you want and we'll get it for you. </span>
+        <button><a href='https://wa.link/giv8zo'>Make a Request!</a></button>
+
+        <h1 className='advertisement'>Adverts</h1>
         <span>We have a teeming audience of gadget enthusiats who are always looking for good deals that you can sell your goods to. We've got wholesalers, retailers and end users who want to buy tech gadgets from you.</span>
         <span>And they're interested in what sells: phones, airpods, Apple watches, ps4s, and other gadgets. </span>
         <div className='the-images'>
@@ -50,7 +55,8 @@ const Adverts = () =>(
 
         <div className='lastpart'>
         <h3>How can you get invovled?</h3>
-        <span className='last-span'>Simply contact us via Whatsapp. Let's talk </span>
+        <span className='last-span'>Simply contact us via Whatsapp.  </span>
+        <button><a href='https://wa.link/a4jkal'>Let's talk!</a></button>
         </div>
     </div>
 )

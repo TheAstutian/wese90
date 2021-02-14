@@ -73,10 +73,10 @@ const HomePage = () => (
             <img alt='4' src='https://images.unsplash.com/photo-1562774555-079298a31cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80' />
         </div>
         <div className='txt'>
-            <h2> iPhone Unlock</h2>
-            <p> Is your iPhone locked? Are you blocked from using the phone? No shame, we can make it work again. </p>
-            <p> Either with a chip or with no chip, dry bones shall rise again. </p>
-            <button><a href="https://wa.link/no3b4t">Learn More</a></button>
+            <h2> iPhone Unlock & Troubleshooting</h2>
+            <p> Is your iPhone locked? Are you blocked from using the phone? No shame, we can make it work again. Either with a chip or with no chip, dry bones shall rise again. </p>
+            <p>We also deal with other iPhone software problems. </p>
+            <button><a href="https://wa.link/125nz5">Unlock iPhone</a></button>
         </div>
 
     </div>
